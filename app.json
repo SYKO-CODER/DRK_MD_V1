@@ -1,0 +1,24 @@
+{
+  "name": "© ＤＲＫ ＭＤ (V1)",
+  "description": "© ＤＲＫ ＭＤ has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://i.ibb.co/4wJnJV5z/8212.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "prabath-md"],
+  "success_url": "/",
+
+  "env": {
+      "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
+
